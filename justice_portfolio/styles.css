@@ -1,0 +1,127 @@
+@charset "UTF-8";
+body {
+    background-image: url(bokeh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px; 
+	height: auto;
+	width: auto;
+}
+#container{
+	width: 768px;
+	height: auto;
+	background-color: rgba(255,255,255,1.00);	
+	margin: auto;
+		
+
+}
+
+
+/*Float the aside so it displays net to the main.*/
+aside{
+    width: 150px;
+    height: 1800px;
+    background-color: #5B5B5B;
+    float: left;
+}
+
+header {
+    width: 768px;
+    height: 250px;
+    background-color: #008000;
+    background-image: url(header.jpg);
+}
+
+/*Float the mainso it shoows up . next to the Aside. Reduce width by 150px so they both line up below the header*/
+main{
+    width: 598px;
+    height: 1800px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+article {
+    margin-bottom: 30px;
+}
+
+
+h1 {
+    color: #65ECFC;
+    font-family: politica,sans-serif ;
+	font-weight: 700;
+	font-size: 22pt
+	
+}
+p {
+    font-size: small;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    text-transform: none;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: baseline;
+    white-space: pre-line;
+}
+
+
+footer {
+    background-color:orange;
+    width: 768px;
+    height: 50px;
+    clear: both;
+}
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+img {
+    float: left;
+}
+.floatleft {
+	float: left;
+
+	}
+nav{
+	width: 768px;
+	height: 50px;
+}
+
+#container nav li {
+	display: block;
+	list-style-type: none;
+	float: left;
+	margin: 0px 40px 0px 0px;
+	width: 80px;
+}
+nav a:link {
+    color: #65ebfb;
+    text-decoration: none;
+}
+nav a:visited {
+    color: #5f2575;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+	background-color:#65EBFB;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #000000;
+}ul {
+    height: 20px;
+
+}
+li {
+    width: 80ppx;
+}
